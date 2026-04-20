@@ -267,6 +267,13 @@ section {
     --nav-hover-color: #ffffff;
 }
 
+.index-page .header .logo {
+    background: rgba(255, 255, 255, 0.92);
+    padding: 6px 10px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+}
+
 /* Home Page Custom Header on page scroll
 ------------------------------*/
 
@@ -275,6 +282,12 @@ section {
     --secondary-color: #444444;
     --nav-color: #444444;
     --nav-hover-color: #d83535;
+}
+
+.index-page.scrolled .header .logo {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
 }
 
 /*--------------------------------------------------------------

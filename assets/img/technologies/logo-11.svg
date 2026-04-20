@@ -1,0 +1,7 @@
+<svg width="280" height="140" viewBox="0 0 280 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="140" rx="20" fill="#ffffff"/>
+  <rect x="28" y="36" width="76" height="68" rx="12" fill="#009688"/>
+  <text x="66" y="79" fill="#ffffff" text-anchor="middle" font-family="Montserrat, Arial, sans-serif" font-size="24" font-weight="700">F</text>
+  <text x="118" y="66" fill="#00796b" font-family="Montserrat, Arial, sans-serif" font-size="32" font-weight="700">Flask</text>
+  <text x="118" y="92" fill="#6c757d" font-family="Open Sans, Arial, sans-serif" font-size="13">Python Backend</text>
+</svg>

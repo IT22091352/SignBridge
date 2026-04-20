@@ -1,0 +1,7 @@
+<svg width="280" height="140" viewBox="0 0 280 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="140" rx="20" fill="#ffffff"/>
+  <path d="M48 94V46L90 70L48 94Z" fill="#ff6f00"/>
+  <path d="M90 94V46L132 70L90 94Z" fill="#ffa34d"/>
+  <text x="146" y="66" fill="#ff6f00" font-family="Montserrat, Arial, sans-serif" font-size="25" font-weight="700">TensorFlow</text>
+  <text x="146" y="92" fill="#6c757d" font-family="Open Sans, Arial, sans-serif" font-size="13">Neural Networks</text>
+</svg>

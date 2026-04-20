@@ -1,0 +1,7 @@
+<svg width="280" height="140" viewBox="0 0 280 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="140" rx="20" fill="#ffffff"/>
+  <circle cx="64" cy="70" r="24" fill="#ff6f00"/>
+  <path d="M64 44L52 66H76L64 44Z" fill="#fff" opacity="0.9"/>
+  <text x="112" y="66" fill="#ff6f00" font-family="Montserrat, Arial, sans-serif" font-size="28" font-weight="700">PyTorch</text>
+  <text x="112" y="92" fill="#6c757d" font-family="Open Sans, Arial, sans-serif" font-size="13">Deep Learning</text>
+</svg>

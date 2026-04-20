@@ -1,0 +1,1187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>SignBridge – AI-Powered Sinhala Sign Language Assistive Technology Platform</title>
+    <meta content="An AI-powered assistive technology platform for deaf and mute children in Sri Lanka, enabling communication and learning through Sinhala Sign Language recognition, 3D avatar animation, gamified vocabulary learning, and lip-reading assistance." name="description">
+    <meta content="Sinhala Sign Language, SSL, deaf education, sign language recognition, AI, deep learning, Sri Lanka, SLIIT, assistive technology" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SignBridge – AI-Powered Sinhala Sign Language Platform">
+    <meta property="og:description" content="AI-powered assistive technology platform for deaf and mute children in Sri Lanka.">
+    <meta property="og:site_name" content="SignBridge">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+        <div class="container-fluid d-flex align-items-center justify-content-between">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+                <img id="logo-img" src="assets/img/logo.png" data-logo-default="assets/img/logo.png" data-logo-scrolled="assets/img/logo.png" alt="SignBridge Logo">
+            </a>
+
+            <!-- Nav Menu -->
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html#hero" class="active">Home</a></li>
+                    <li class="dropdown has-dropdown"><a href="#PS"><span>Project Scope</span> <i class="bi bi-chevron-down"></i></a>
+                        <ul class="dd-box-shadow">
+                            <li><a href="#literatur-survey">Literature Survey</a></li>
+                            <li><a href="#research-gap">Research Gap</a></li>
+                            <li><a href="#research-solution">Research Solutions</a></li>
+                            <li><a href="#objectives">Research Objectives</a></li>
+                            <li><a href="#methodology">Methodology</a></li>
+                            <li><a href="#tools-technologies">Tools &amp; Technologies</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#milestones">Milestones</a></li>
+                    <li><a href="#team">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#downloads">Downloads</a></li>
+                </ul>
+
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+            <!-- End Nav Menu -->
+
+            <a class="btn-getstarted" href="index.html#literatur-survey">Get Started</a>
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <main id="main">
+
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10">
+                        <h2 data-aos="fade-up" data-aos-delay="100">Sign<span class="home-text">Bridge</span> – AI-Powered Sinhala Sign Language Assistive Technology Platform</h2>
+                        <p data-aos="fade-up" data-aos-delay="200">Bridging communication barriers for deaf and mute children in Sri Lanka through cutting-edge artificial intelligence, deep learning, and inclusive design.</p>
+                    </div>
+                    <div class="col-lg-5 mt-4">
+                        <a class="btn p-3 w-50 home-btn" href="#literatur-survey">Get Started</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End Hero Section -->
+
+        <!-- Literature Survey Section -->
+        <section id="literatur-survey" class="about">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row align-items-xl-center gy-5">
+
+                    <div class="col-xl-5 content">
+                        <h3>Project Scope</h3>
+                        <h2>Literature Survey</h2>
+                        <p>Sri Lanka is home to approximately 8,500 deaf and mute children enrolled in special education units, where the student-to-educator ratio exceeds 50:1 and literacy rates remain below 30% [1]. Existing assistive technology tools are predominantly English-centric and fail to accommodate the grammatical structure of Sinhala Sign Language (SSL), which follows a Subject-Object-Verb (SOV) word order distinct from standard English syntax [2][3].</p>
+                        <p>Prior research in sign language recognition has explored deep learning approaches including two-stream Convolutional Neural Networks (CNN) [4], Transformer-based attention mechanisms [5][6], and hybrid CNN-BiLSTM architectures [7]. Landmark detection frameworks such as MediaPipe Hands [8] and large-scale datasets including How2Sign [9] have enabled real-time recognition pipelines. In the Sri Lankan context, Hettiarachchi and Meegama [11] and Haputhanthri et al. [2] applied machine learning to SSL recognition; however, integrated, child-friendly platforms addressing all modalities of communication remain absent.</p>
+                        <p>Text-to-sign animation research has advanced with 3D avatar systems [12], yet no Sinhala-specific text-to-SSL animation system existed prior to this work. Gamification research by Deterding et al. [15] demonstrates that adaptive difficulty, immediate feedback, and progress tracking drive learner engagement — principles particularly critical for visual learners such as deaf children. Visual speech recognition through lip-reading using CNN-LSTM architectures [17][18] has shown strong performance for high-resource languages, but Sinhala remained without such a pronunciation support tool [19].</p>
+
+                        <p><strong>Selected References</strong></p>
+                        <ol style="font-size: 10px;">
+                            <li>R. Weerasinghe, K. Perera, and D. Gamage, "Challenges in deaf education in Sri Lanka," J. Special Education in South Asia, vol. 15, no. 2, pp. 45–62, 2020.</li>
+                            <li>D. Haputhanthri, G. Hettiarachchi, and C. Meegama, "Multimodal deep learning for Sinhala Sign Language recognition," IEEE Int. Conf. Industrial Information Systems, pp. 123–128, 2019.</li>
+                            <li>K. Jayasekara and S. Ratnayake, "Palmingo: A mobile application for Sinhala Sign Language learning," Sri Lankan J. Computer Science, vol. 8, no. 1, pp. 33–47, 2021.</li>
+                            <li>K. Simonyan and A. Zisserman, "Two-stream convolutional networks for action recognition in videos," NeurIPS, pp. 568–576, 2014.</li>
+                            <li>A. Vaswani et al., "Attention is all you need," NeurIPS, pp. 5998–6008, 2017.</li>
+                        </ol>
+                    </div>
+
+                    <div class="col-xl-7">
+                        <div class="row gy-4 icon-boxes">
+                            <div data-aos="fade-up" data-aos-delay="200">
+                                <!-- SVG diagram replacing external image -->
+                                <svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg" width="100%" style="border-radius:12px;">
+                                    <defs>
+                                        <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#1a1a2e"/>
+                                            <stop offset="100%" style="stop-color:#16213e"/>
+                                        </linearGradient>
+                                        <linearGradient id="acc" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" style="stop-color:#ff570d"/>
+                                            <stop offset="100%" style="stop-color:#ff8c42"/>
+                                        </linearGradient>
+                                    </defs>
+                                    <rect width="700" height="420" fill="url(#bg1)" rx="12"/>
+                                    <text x="350" y="38" font-family="Montserrat,sans-serif" font-size="15" font-weight="700" fill="white" text-anchor="middle">Sign Language Technology Landscape – Sri Lanka Context</text>
+
+                                    <!-- Boxes -->
+                                    <rect x="30" y="65" width="190" height="80" rx="8" fill="#0f3460" stroke="#ff570d" stroke-width="1.5"/>
+                                    <text x="125" y="92" font-family="sans-serif" font-size="11" fill="#ff570d" font-weight="600" text-anchor="middle">Existing Tools</text>
+                                    <text x="125" y="110" font-family="sans-serif" font-size="10" fill="#ccc" text-anchor="middle">English-centric platforms</text>
+                                    <text x="125" y="126" font-family="sans-serif" font-size="10" fill="#ccc" text-anchor="middle">No Sinhala SOV grammar support</text>
+
+                                    <rect x="255" y="65" width="190" height="80" rx="8" fill="#0f3460" stroke="#ff570d" stroke-width="1.5"/>
+                                    <text x="350" y="92" font-family="sans-serif" font-size="11" fill="#ff570d" font-weight="600" text-anchor="middle">Research Gap</text>
+                                    <text x="350" y="110" font-family="sans-serif" font-size="10" fill="#ccc" text-anchor="middle">No integrated SSL platform</text>
+                                    <text x="350" y="126" font-family="sans-serif" font-size="10" fill="#ccc" text-anchor="middle">Literacy rate &lt;30% (deaf children)</text>
+
+                                    <rect x="480" y="65" width="190" height="80" rx="8" fill="#0f3460" stroke="#ff570d" stroke-width="1.5"/>
+                                    <text x="575" y="92" font-family="sans-serif" font-size="11" fill="#ff570d" font-weight="600" text-anchor="middle">Proposed System</text>
+                                    <text x="575" y="110" font-family="sans-serif" font-size="10" fill="#ccc" text-anchor="middle">4-module AI platform</text>
+                                    <text x="575" y="126" font-family="sans-serif" font-size="10" fill="#ccc" text-anchor="middle">Sinhala-specific &amp; child-friendly</text>
+
+                                    <!-- Arrows -->
+                                    <line x1="220" y1="105" x2="253" y2="105" stroke="#ff570d" stroke-width="2" marker-end="url(#arr)"/>
+                                    <line x1="445" y1="105" x2="478" y2="105" stroke="#ff570d" stroke-width="2" marker-end="url(#arr)"/>
+                                    <defs>
+                                        <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+                                            <path d="M0,0 L0,6 L8,3 z" fill="#ff570d"/>
+                                        </marker>
+                                    </defs>
+
+                                    <!-- 4 module blocks -->
+                                    <text x="350" y="185" font-family="Montserrat,sans-serif" font-size="12" fill="white" text-anchor="middle" font-weight="600">Four Integrated AI Modules</text>
+
+                                    <rect x="30" y="200" width="145" height="90" rx="8" fill="#e94560" opacity="0.85"/>
+                                    <text x="102" y="226" font-family="sans-serif" font-size="10" fill="white" font-weight="700" text-anchor="middle">SSL → Text</text>
+                                    <text x="102" y="242" font-family="sans-serif" font-size="9" fill="#ffe" text-anchor="middle">Recognition</text>
+                                    <text x="102" y="263" font-family="sans-serif" font-size="9" fill="#ffe" text-anchor="middle">CNN + BiLSTM</text>
+                                    <text x="102" y="279" font-family="sans-serif" font-size="9" fill="#ffe" text-anchor="middle">88.85% Top-1 Acc.</text>
+
+                                    <rect x="190" y="200" width="145" height="90" rx="8" fill="#0f3460" opacity="0.95" stroke="#ff570d" stroke-width="1"/>
+                                    <text x="262" y="226" font-family="sans-serif" font-size="10" fill="white" font-weight="700" text-anchor="middle">Text → SSL Avatar</text>
+                                    <text x="262" y="242" font-family="sans-serif" font-size="9" fill="#ccc" text-anchor="middle">3D Animation</text>
+                                    <text x="262" y="263" font-family="sans-serif" font-size="9" fill="#ccc" text-anchor="middle">NLP + WebGL</text>
+                                    <text x="262" y="279" font-family="sans-serif" font-size="9" fill="#ccc" text-anchor="middle">SOV Grammar Engine</text>
+
+                                    <rect x="350" y="200" width="145" height="90" rx="8" fill="#e94560" opacity="0.85"/>
+                                    <text x="422" y="226" font-family="sans-serif" font-size="10" fill="white" font-weight="700" text-anchor="middle">Gamified Learning</text>
+                                    <text x="422" y="242" font-family="sans-serif" font-size="9" fill="#ffe" text-anchor="middle">Word Puzzle + Sentence</text>
+                                    <text x="422" y="263" font-family="sans-serif" font-size="9" fill="#ffe" text-anchor="middle">BiLSTM + Transformer</text>
+                                    <text x="422" y="279" font-family="sans-serif" font-size="9" fill="#ffe" text-anchor="middle">96–99% Accuracy</text>
+
+                                    <rect x="510" y="200" width="160" height="90" rx="8" fill="#0f3460" opacity="0.95" stroke="#ff570d" stroke-width="1"/>
+                                    <text x="590" y="226" font-family="sans-serif" font-size="10" fill="white" font-weight="700" text-anchor="middle">Lip Reading</text>
+                                    <text x="590" y="242" font-family="sans-serif" font-size="9" fill="#ccc" text-anchor="middle">Pronunciation Assistant</text>
+                                    <text x="590" y="263" font-family="sans-serif" font-size="9" fill="#ccc" text-anchor="middle">CNN-LSTM Model</text>
+                                    <text x="590" y="279" font-family="sans-serif" font-size="9" fill="#ccc" text-anchor="middle">Sinhala-specific Dataset</text>
+
+                                    <!-- Bottom bar -->
+                                    <rect x="30" y="320" width="640" height="50" rx="8" fill="url(#acc)" opacity="0.9"/>
+                                    <text x="350" y="338" font-family="Montserrat,sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="700">Unified Learning Loop: Learn → Practice → Assess → Improve</text>
+                                    <text x="350" y="358" font-family="sans-serif" font-size="10" fill="#ffe" text-anchor="middle">Target: Deaf &amp; Mute Children (ages 5–12) | Sri Lanka | SLIIT Research 2024</text>
+
+                                    <!-- Stats row -->
+                                    <text x="125" y="400" font-family="sans-serif" font-size="10" fill="#aaa" text-anchor="middle">8,500 deaf children in SL</text>
+                                    <text x="350" y="400" font-family="sans-serif" font-size="10" fill="#aaa" text-anchor="middle">50:1 student-educator ratio</text>
+                                    <text x="575" y="400" font-family="sans-serif" font-size="10" fill="#aaa" text-anchor="middle">&lt;30% literacy rate</text>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- End Literature Survey Section -->
+
+        <!-- Stats Section -->
+        <section id="stats" class="stats">
+
+            <img src="assets/img/stats-bg.svg" alt="AI assistive technology background" data-aos="fade-in">
+
+            <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="8500" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>Deaf Children in Sri Lanka</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="185" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>SSL Sign Classes Recognized</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>AI Modules Integrated</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="stats-item text-center w-100 h-100">
+                            <span data-purecounter-start="0" data-purecounter-end="99" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>% Gamified Learning Accuracy</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End Stats Section -->
+
+        <!-- Research Gap Section -->
+        <section id="research-gap" class="about">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row align-items-xl-center gy-5">
+
+                    <div class="col-xl-5 content">
+                        <h2 style="color: red;">Research Gap</h2>
+                        <p>A comprehensive review of existing literature and assistive tools identifies the following critical gaps in serving the deaf and mute community in Sri Lanka.</p>
+                    </div>
+
+                    <div class="col-xl-12">
+                        <div class="row gy-4 icon-boxes">
+
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                                <div class="icon-box">
+                                    <h3 style="font-size: 15px;">Absence of Sinhala-Specific Sign Language Tools</h3>
+                                    <p>Existing sign language recognition systems and learning platforms are predominantly designed for high-resource languages such as American Sign Language (ASL) or British Sign Language (BSL). No integrated, production-ready platform supports the grammatical structure and vocabulary of Sinhala Sign Language (SSL), which follows a distinct Subject-Object-Verb (SOV) word order incompatible with English-centric tools.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                                <div class="icon-box">
+                                    <h3 style="font-size: 15px;">Lack of an Integrated Multi-Modal Learning Platform</h3>
+                                    <p>While individual components such as gesture recognition, text-to-sign animation, and gamified vocabulary tools have been explored in isolation, no unified platform exists that combines all these modalities in a coherent learning loop. The absence of such integration creates fragmented user experiences that hinder effective language acquisition for deaf children in Sri Lanka.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                                <div class="icon-box">
+                                    <h3 style="font-size: 15px;">Insufficient Pronunciation Support for Deaf Learners</h3>
+                                    <p>Lip-reading and pronunciation feedback tools based on visual speech recognition are largely unavailable for Sinhala, a low-resource language. The absence of a Sinhala lip-reading dataset and trained models means that deaf learners have no AI-assisted mechanism to practice and receive feedback on Sinhala pronunciation, an essential component for language integration in educational settings.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                                <div class="icon-box">
+                                    <h3 style="font-size: 15px;">Limited Child-Centric and Adaptive Learning Designs</h3>
+                                    <p>Most available platforms are designed for adult users or general audiences and do not incorporate child-centric pedagogical approaches such as adaptive difficulty progression, spaced repetition, and immediate visual feedback. This gap is particularly acute for deaf children aged 5–12 in Sri Lanka's special education system, who require tailored, visually rich, and gamified interfaces to support their unique learning modalities.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End Research Gap Section -->
+
+        <!-- Research Solution Section -->
+        <section id="research-solution" class="about">
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row align-items-xl-center gy-5">
+
+                    <div class="col-xl-5 content">
+                        <h2 style="color: red;">Research Solutions</h2>
+                        <p>The proposed SignBridge platform addresses each identified research gap through four tightly integrated AI-powered modules.</p>
+                    </div>
+
+                    <div class="col-xl-12">
+                        <div class="row gy-4 icon-boxes">
+
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
+                                <div class="icon-box">
+                                    <h3 style="font-size: 15px;">SSL-to-Text Recognition System</h3>
+                                    <p>Implementing a hybrid CNN and BiLSTM deep learning model with an attention mechanism to accurately recognize spatial and temporal features of sign language gestures and translate them into text.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="400">
+                                <div class="icon-box">
+                                    <h3 style="font-size: 15px;">Text-to-SSL Avatar Animation System</h3>
+                                    <p>This decoupled architecture features an NLP pipeline achieving 28.13 milliseconds and video concatenation in exactly 192 milliseconds, seamlessly translating complex Sinhala text into highly accurate visual sign language animation sequences.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="300">
+                                <div class="icon-box">
+                                    <h3 style="font-size: 15px;">Gamified Sinhala Sign Language Vocabulary Learning</h3>
+                                    <p>Developing an engaging platform featuring word puzzles and sentence ordering games that use WordLSTM embeddings to adaptively scale difficulty based on the learner's progress.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6" data-aos="fade-up" data-aos-delay="500">
+                                <div class="icon-box">
+                                    <h3 style="font-size: 15px;">AI-Powered Lip Reading Pronunciation Assistant</h3>
+                                    <p>Deploying a CNN-LSTM visual speech recognition model that tracks facial landmarks to provide real-time, corrective feedback on Sinhala word pronunciation.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End Research Solution Section -->
+
+
+        <!-- Objectives Section -->
+        <section id="objectives" class="services">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Research Objectives</h2>
+                <p>Clear and Targeted Objectives for Inclusive AI-Assisted Education</p>
+            </div>
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0"><i class="bi bi-camera-video"></i></div>
+                            <div>
+                                <h4 class="title"><a class="stretched-link">Real-Time Sign Language Recognition</a></h4>
+                                <p class="description">To develop and evaluate a high-accuracy real-time Sinhala Sign Language recognition system using hybrid CNN-BiLSTM deep learning architecture, capable of classifying a minimum of 185 SSL sign classes from webcam video input in a browser-to-server deployment environment.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0"><i class="bi bi-person-bounding-box"></i></div>
+                            <div>
+                                <h4 class="title"><a class="stretched-link">Sinhala Text-to-Sign Language Animation</a></h4>
+                                <p class="description">To design and implement a text-to-SSL animation system that accurately translates Sinhala text into grammatically correct SSL sequences using a video-based approach, incorporating TSOV spatial grammar conversion, a digital SSL dictionary, and Word2Vec semantic embeddings for out-of-vocabulary words.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0"><i class="bi bi-controller"></i></div>
+                            <div>
+                                <h4 class="title"><a class="stretched-link">Gamified Adaptive Vocabulary Learning</a></h4>
+                                <p class="description">To build an adaptive, gamified SSL vocabulary learning platform incorporating spaced repetition, difficulty progression, and immediate visual feedback through two interactive games — a word puzzle and a sentence ordering game — validated with deaf learners in special education settings in Sri Lanka.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="service-item d-flex">
+                            <div class="icon flex-shrink-0"><i class="bi bi-mic"></i></div>
+                            <div>
+                                <h4 class="title"><a class="stretched-link">AI-Assisted Lip Reading Pronunciation Support</a></h4>
+                                <p class="description">To develop a visual speech recognition system using a CNN-LSTM model trained on a custom Sinhala lip-reading dataset that provides real-time, camera-independent pronunciation feedback to deaf and mute learners practicing Sinhala phonemes and words through a web browser interface.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End Objectives Section -->
+
+        <!-- Methodology Section -->
+        <section id="methodology" class="about">
+            <div class="container">
+                <div>
+                    <div class="container section-title" data-aos="fade-up">
+                        <h2>Sign<span class="home-text">Bridge</span></h2>
+                        <p>AI-Powered Sinhala Sign Language Assistive Technology Platform</p>
+                    </div>
+
+                    <div class="container">
+                        <div class="col-md-12" data-aos="fade-up" data-aos-delay="500">
+                            <div class="icon-box">
+                                <p class="text-justify"><strong>Sign<span style="color: #ff570d;">Bridge</span></strong> is a comprehensive, multi-component AI-assisted platform designed to support communication and Sinhala language learning for deaf and mute children in Sri Lanka. The system integrates four primary modules:
+                                    <ol>
+                                        <li>SSL-to-Text Recognition System (Sign → Text)</li>
+                                        <li>Text-to-SSL Animation System (Text → Sign)</li>
+                                        <li>Gamified Sinhala Sign Language Vocabulary Learning Platform</li>
+                                        <li>AI-Powered Lip Reading Pronunciation Assistant</li>
+                                    </ol>
+
+                                    <p class="text-justify">The four modules operate as an integrated learning loop in which vocabulary from the Gamified Learning System feeds into the Text-to-SSL Avatar for demonstration, while the SSL-to-Text Recognition and Lip Reading Assistant provide real-time assessment of both signing and articulation skills. This unified architecture enables a complete communication cycle: deaf children learn vocabulary through games, practice signing and pronunciation using the camera, and receive immediate cross-modal feedback. The system is built on a Python backend (Flask/FastAPI), React frontend, and employs PyTorch, MediaPipe, OpenCV, WebGL, and Three.js across its modules. All components are accessible through a standard web browser, requiring no additional hardware or software installation.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div style="margin-top: 100px;" class="container" data-aos="fade-up" data-aos-delay="100">
+                <div class="row align-items-xl-center gy-5">
+
+                    <div class="col-xl-6 content">
+                        <div class="col-xl-5 content">
+                            <h2 style="color: red;">Methodology</h2>
+                        </div>
+                        <br/><br/>
+
+                        <p>The SSL-to-Text Recognition System captures webcam video frames and extracts 132 hand and body landmark features per frame using MediaPipe, forming fixed-length 50-frame sequences. These sequences are classified using a hybrid CNN-BiLSTM model with an attention mechanism, trained on 2,791 sequences across 185 sign classes. Prediction stability is improved through ensemble inference and confidence smoothing (α = 0.35), achieving 88.85% top-1 and 94.84% top-5 accuracy on unseen validation data.</p>
+                        <p>The Text-to-SSL Avatar system accepts Sinhala or English text, applies NLP normalization and SOV grammar conversion using the Sinling tokenizer and a custom grammar engine, then maps tokens to SSL gestures via a digital sign dictionary with fingerspelling for out-of-vocabulary words. A Seq2Seq Transformer model (sub-word tokenized via SentencePiece) handles complex sentence translation, and the resulting gesture sequence is rendered in real time by a WebGL/Three.js 3D avatar.</p>
+                        <p>The Gamified Vocabulary Learning platform includes a Word Puzzle Game and a Sentence Ordering Game. A BiLSTM-Attention word embedding model classifies vocabulary into four difficulty tiers (Basic, Easy, Medium, Hard) based on syllable count and vowel sign complexity. A Transformer-based sentence ordering model achieves 99% accuracy in arranging jumbled Sinhala words into grammatically correct SOV structures. The Lip Reading Pronunciation Assistant uses normalized lip landmark coordinates (relative to inter-ocular and nose-length references) as input to a CNN-LSTM model, providing real-time pronunciation feedback through the browser camera.</p>
+
+                    </div>
+
+                    <div class="col-xl-6">
+                        <div class="row gy-4 icon-boxes">
+                            <div data-aos="fade-up" data-aos-delay="200">
+                                <!-- System Architecture Diagram SVG -->
+                                <svg viewBox="0 0 600 480" xmlns="http://www.w3.org/2000/svg" width="100%" style="border-radius:12px; background:#1a1a2e;">
+                                    <defs>
+                                        <linearGradient id="hdr" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" style="stop-color:#ff570d"/>
+                                            <stop offset="100%" style="stop-color:#e94560"/>
+                                        </linearGradient>
+                                        <marker id="arw" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+                                            <path d="M0,0 L0,6 L8,3 z" fill="#ff570d"/>
+                                        </marker>
+                                    </defs>
+                                    <!-- Header -->
+                                    <rect x="0" y="0" width="600" height="40" fill="url(#hdr)" rx="12"/>
+                                    <text x="300" y="25" font-family="Montserrat,sans-serif" font-size="13" fill="white" text-anchor="middle" font-weight="700">SignBridge System Architecture</text>
+
+                                    <!-- User layer -->
+                                    <rect x="220" y="55" width="160" height="40" rx="8" fill="#0f3460" stroke="#ff570d" stroke-width="1.5"/>
+                                    <text x="300" y="70" font-family="sans-serif" font-size="11" fill="white" text-anchor="middle" font-weight="600">USER (Deaf Child)</text>
+                                    <text x="300" y="85" font-family="sans-serif" font-size="9" fill="#aaa" text-anchor="middle">Web Browser / Camera Input</text>
+
+                                    <!-- Frontend -->
+                                    <rect x="180" y="120" width="240" height="40" rx="8" fill="#16213e" stroke="#4a90d9" stroke-width="1.5"/>
+                                    <text x="300" y="137" font-family="sans-serif" font-size="11" fill="#4a90d9" text-anchor="middle" font-weight="600">React Frontend</text>
+                                    <text x="300" y="152" font-family="sans-serif" font-size="9" fill="#aaa" text-anchor="middle">JavaScript · WebGL · Three.js · MediaPipe</text>
+
+                                    <line x1="300" y1="95" x2="300" y2="118" stroke="#ff570d" stroke-width="1.5" marker-end="url(#arw)"/>
+                                    <line x1="300" y1="160" x2="300" y2="178" stroke="#ff570d" stroke-width="1.5" marker-end="url(#arw)"/>
+
+                                    <!-- Backend -->
+                                    <rect x="180" y="180" width="240" height="40" rx="8" fill="#16213e" stroke="#4a90d9" stroke-width="1.5"/>
+                                    <text x="300" y="197" font-family="sans-serif" font-size="11" fill="#4a90d9" text-anchor="middle" font-weight="600">Python Backend (Flask / FastAPI)</text>
+                                    <text x="300" y="212" font-family="sans-serif" font-size="9" fill="#aaa" text-anchor="middle">PyTorch · OpenCV · Sinling · NumPy</text>
+
+                                    <!-- 4 modules -->
+                                    <line x1="250" y1="220" x2="90" y2="268" stroke="#ff570d" stroke-width="1.5" marker-end="url(#arw)"/>
+                                    <line x1="275" y1="220" x2="210" y2="268" stroke="#ff570d" stroke-width="1.5" marker-end="url(#arw)"/>
+                                    <line x1="325" y1="220" x2="390" y2="268" stroke="#ff570d" stroke-width="1.5" marker-end="url(#arw)"/>
+                                    <line x1="350" y1="220" x2="510" y2="268" stroke="#ff570d" stroke-width="1.5" marker-end="url(#arw)"/>
+
+                                    <rect x="20" y="270" width="130" height="70" rx="8" fill="#e94560" opacity="0.9"/>
+                                    <text x="85" y="292" font-family="sans-serif" font-size="9" fill="white" font-weight="700" text-anchor="middle">SSL→Text</text>
+                                    <text x="85" y="308" font-family="sans-serif" font-size="8" fill="#ffe" text-anchor="middle">CNN + BiLSTM</text>
+                                    <text x="85" y="322" font-family="sans-serif" font-size="8" fill="#ffe" text-anchor="middle">Attention Mech.</text>
+                                    <text x="85" y="334" font-family="sans-serif" font-size="8" fill="#ffe" text-anchor="middle">88.85% Acc.</text>
+
+                                    <rect x="165" y="270" width="130" height="70" rx="8" fill="#0f3460" stroke="#ff570d" stroke-width="1"/>
+                                    <text x="230" y="292" font-family="sans-serif" font-size="9" fill="white" font-weight="700" text-anchor="middle">Text→SSL Avatar</text>
+                                    <text x="230" y="308" font-family="sans-serif" font-size="8" fill="#ccc" text-anchor="middle">Seq2Seq Transformer</text>
+                                    <text x="230" y="322" font-family="sans-serif" font-size="8" fill="#ccc" text-anchor="middle">SOV Grammar Engine</text>
+                                    <text x="230" y="334" font-family="sans-serif" font-size="8" fill="#ccc" text-anchor="middle">3D Avatar (WebGL)</text>
+
+                                    <rect x="310" y="270" width="130" height="70" rx="8" fill="#e94560" opacity="0.9"/>
+                                    <text x="375" y="292" font-family="sans-serif" font-size="9" fill="white" font-weight="700" text-anchor="middle">Gamified Learning</text>
+                                    <text x="375" y="308" font-family="sans-serif" font-size="8" fill="#ffe" text-anchor="middle">BiLSTM + Transformer</text>
+                                    <text x="375" y="322" font-family="sans-serif" font-size="8" fill="#ffe" text-anchor="middle">Word Puzzle &amp; Sentence</text>
+                                    <text x="375" y="334" font-family="sans-serif" font-size="8" fill="#ffe" text-anchor="middle">96–99% Accuracy</text>
+
+                                    <rect x="455" y="270" width="130" height="70" rx="8" fill="#0f3460" stroke="#ff570d" stroke-width="1"/>
+                                    <text x="520" y="292" font-family="sans-serif" font-size="9" fill="white" font-weight="700" text-anchor="middle">Lip Reading</text>
+                                    <text x="520" y="308" font-family="sans-serif" font-size="8" fill="#ccc" text-anchor="middle">CNN-LSTM Model</text>
+                                    <text x="520" y="322" font-family="sans-serif" font-size="8" fill="#ccc" text-anchor="middle">Custom Sinhala</text>
+                                    <text x="520" y="334" font-family="sans-serif" font-size="8" fill="#ccc" text-anchor="middle">Lip Dataset</text>
+
+                                    <!-- Dataset box -->
+                                    <rect x="160" y="375" width="280" height="45" rx="8" fill="#16213e" stroke="#4a90d9" stroke-width="1.5"/>
+                                    <text x="300" y="393" font-family="sans-serif" font-size="10" fill="#4a90d9" text-anchor="middle" font-weight="600">Datasets &amp; Knowledge Base</text>
+                                    <text x="300" y="409" font-family="sans-serif" font-size="8" fill="#aaa" text-anchor="middle">SSL400 Video · Landmark CSV · Digital SSL Dictionary · Lip Dataset</text>
+
+                                    <line x1="85" y1="340" x2="200" y2="373" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4"/>
+                                    <line x1="230" y1="340" x2="260" y2="373" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4"/>
+                                    <line x1="375" y1="340" x2="340" y2="373" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4"/>
+                                    <line x1="520" y1="340" x2="400" y2="373" stroke="#4a90d9" stroke-width="1" stroke-dasharray="4"/>
+
+                                    <!-- Feedback arrow back -->
+                                    <path d="M 300 420 Q 40 440 40 200 Q 40 95 218 75" stroke="#ff570d" stroke-width="1.5" fill="none" stroke-dasharray="6,3" marker-end="url(#arw)" opacity="0.6"/>
+                                    <text x="25" y="310" font-family="sans-serif" font-size="8" fill="#ff570d" opacity="0.7" transform="rotate(-90,25,300)">Real-time Feedback Loop</text>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+        <!-- End Methodology Section -->
+
+        <!-- Tools & Technologies -->
+        <section id="tools-technologies" class="client-logo-area client-logo-one">
+            <div class="section-title-two">
+                <div>
+                    <div class="col-12">
+                        <div class="container section-title" data-aos="fade-up">
+                            <h2>Tools &amp; Technologies</h2>
+                            <p>State-of-the-Art AI, Computer Vision &amp; Web Technologies</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <!-- Row 1: AI/ML -->
+                <div class="container section-title" data-aos="fade-up" style="margin-bottom:10px;">
+                    <p style="font-size:13px; font-weight:600; color:#ff570d;">AI / Machine Learning</p>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-1.png" class="img-fluid" alt="PyTorch logo" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-2.png" class="img-fluid" alt="TensorFlow logo" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-3.png" class="img-fluid" alt="Scikit-Learn logo" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-4.png" class="img-fluid" alt="MediaPipe logo" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <br/><br/>
+
+                <!-- Row 2: Computer Vision / NLP -->
+                <div class="container section-title" data-aos="fade-up" style="margin-bottom:10px;">
+                    <p style="font-size:13px; font-weight:600; color:#ff570d;">Computer Vision &amp; NLP</p>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-5.png" class="img-fluid" alt="OpenCV logo" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-6.png" class="img-fluid" alt="Sinling logo" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-7.png" class="img-fluid" alt="Word2Vec logo" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-8.png" class="img-fluid" alt="NumPy and Pandas logos" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+
+                <br/><br/>
+
+                <!-- Row 3: Web / 3D / Backend -->
+                <div class="container section-title" data-aos="fade-up" style="margin-bottom:10px;">
+                    <p style="font-size:13px; font-weight:600; color:#ff570d;">Frontend, 3D Graphics &amp; Backend</p>
+                </div>
+                <div class="row" data-aos="fade-up" data-aos-delay="400">
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-9.png" class="img-fluid" alt="React logo" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-10.png" class="img-fluid" alt="Three.js logo" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-11.png" class="img-fluid" alt="Flask logo" loading="lazy">
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-6">
+                        <div class="single-client text-center">
+                            <img src="assets/img/technologies/logo-12.png" class="img-fluid" alt="MongoDB logo" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Tools & Technologies -->
+
+        <!-- Milestones Section -->
+        <section id="milestones" class="team">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Milestones</h2>
+                <p>Research Timeline &amp; Key Deliverables</p>
+            </div>
+
+            <div>
+                <div class="container py-5">
+                    <div class="main-timeline-4 text-white">
+
+                        <div class="timeline-4 left-4" data-aos="fade-right">
+                            <div class="card gradient-custom">
+                                <div class="card-body p-4 main-timeline-text">
+                                    <div class="d-flex">
+                                        <p class="time-box">March 2024</p>
+                                    </div>
+                                    <h4 class="main-timeline-text m-0"><strong>Project Proposal</strong></h4>
+                                    <p class="mt-2">Formal research proposal outlining the AI-Powered Sinhala Sign Language Assistive Technology Platform, problem statement, objectives, and preliminary literature survey submitted for institutional review.</p>
+                                    <h6 class="badge bg-light text-black mb-0">Marks Allocated : 6</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-4 right-4" data-aos="fade-left">
+                            <div class="card gradient-custom-4">
+                                <div class="card-body p-4">
+                                    <div class="d-flex">
+                                        <p class="time-box">May 2024</p>
+                                    </div>
+                                    <h4 class="main-timeline-text m-0"><strong>Progress Presentation I</strong></h4>
+                                    <p class="mt-2">Demonstration of 50% system completion, including the SSL-to-Text Recognition prototype and initial dataset collection. Review of design decisions, model architecture, and preliminary accuracy results.</p>
+                                    <h6 class="badge bg-light text-black mb-0">Marks Allocated : 6</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-4 left-4" data-aos="fade-right">
+                            <div class="card gradient-custom">
+                                <div class="card-body p-4">
+                                    <div class="d-flex">
+                                        <p class="time-box">June 2024</p>
+                                    </div>
+                                    <h4 class="main-timeline-text m-0"><strong>Research Paper</strong></h4>
+                                    <p class="mt-2">Peer-reviewed research paper documenting system architecture, experimental results across all four modules (SSL recognition, 3D avatar, gamified learning, lip reading), and contributions to the field of assistive AI for deaf education in Sri Lanka.</p>
+                                    <h6 class="badge bg-light text-black mb-0">Marks Allocated : 10</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-4 right-4" data-aos="fade-left">
+                            <div class="card gradient-custom-4">
+                                <div class="card-body p-4">
+                                    <div class="d-flex">
+                                        <p class="time-box">September 2024</p>
+                                    </div>
+                                    <h4 class="main-timeline-text m-0"><strong>Progress Presentation II</strong></h4>
+                                    <p class="mt-2">90% system completion demonstration including integrated multi-module platform, gamified learning pilot study results with deaf students in special education settings, and poster presentation summarizing the project's societal impact.</p>
+                                    <h6 class="badge bg-light text-black mb-0">Marks Allocated : 18</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-4 left-4" data-aos="fade-right">
+                            <div class="card gradient-custom">
+                                <div class="card-body p-4">
+                                    <div class="d-flex">
+                                        <p class="time-box">October 2024</p>
+                                    </div>
+                                    <h4 class="main-timeline-text m-0"><strong>Research Logbook</strong></h4>
+                                    <p class="mt-2">Validation of individual research contributions through the logbook, including status documents, experiment logs, dataset documentation, and module-level evaluation records.</p>
+                                    <h6 class="badge bg-light text-black mb-0">Marks Allocated : 3</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-4 right-4" data-aos="fade-left">
+                            <div class="card gradient-custom-4">
+                                <div class="card-body p-4">
+                                    <div class="d-flex">
+                                        <p class="time-box">November 2024</p>
+                                    </div>
+                                    <h4 class="main-timeline-text m-0"><strong>Final Presentation &amp; Viva</strong></h4>
+                                    <p class="mt-2">Final system demonstration and individual viva assessing each team member's research contribution, technical implementation, and understanding of the AI-powered Sinhala Sign Language platform.</p>
+                                    <h6 class="badge bg-light text-black mb-0">Marks Allocated : 20</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Milestones Section -->
+
+        <!-- Downloads Section -->
+        <section id="downloads" class="recent-posts">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Downloads</h2>
+                <p>Access Research Documents, Presentations &amp; Reports</p>
+            </div>
+
+            <div class="container">
+
+                <div class="row gy-4">
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-pdf-fill"></i> Document</p>
+                            <h2 class="title">
+                                <a href="#">Topic Assessment</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-pdf-fill"></i> Document</p>
+                            <h2 class="title">
+                                <a href="#">Project Charter</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-pdf-fill"></i> Document</p>
+                            <h2 class="title">
+                                <a href="#">Project Proposal</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-slides-fill"></i> Presentation</p>
+                            <h2 class="title">
+                                <a href="#">Project Proposal PPT</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-slides-fill"></i> Presentation</p>
+                            <h2 class="title">
+                                <a href="#">Progress Presentation I</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-pdf-fill"></i> Document</p>
+                            <h2 class="title">
+                                <a href="#">Status Documents I</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-slides-fill"></i> Presentation</p>
+                            <h2 class="title">
+                                <a href="#">Progress Presentation II</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-pdf-fill"></i> Document</p>
+                            <h2 class="title">
+                                <a href="#">Status Documents II</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-pdf-fill"></i> Document</p>
+                            <h2 class="title">
+                                <a href="#">Research Paper</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-pdf-fill"></i> Document</p>
+                            <h2 class="title">
+                                <a href="#">Final Report</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="col-xl-3 col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <article>
+                            <p class="post-category"><i class="bi bi-file-earmark-pdf-fill"></i> Document</p>
+                            <h2 class="title">
+                                <a href="#">Log Book</a>
+                            </h2>
+                            <hr/>
+                            <div class="d-flex align-items-center justify-content-end">
+                                <a class="btn p-2 w-50 down-btn" href="#">Download <i class="bi bi-file-earmark-arrow-down-fill"></i></a>
+                            </div>
+                        </article>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End Downloads Section -->
+
+        <!-- Team Section -->
+        <section id="team" class="team">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Team</h2>
+                <p>The Research Group Behind SignBridge</p>
+            </div>
+
+            <div class="container">
+
+                <div class="row gy-5">
+
+                    <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="member-img">
+                            <img src="assets/img/team/team-1.png" class="img-fluid" alt="Supervisor">
+                            <div class="social">
+                                <a href="mailto:supervisor@sliit.lk"><i class="bi bi-envelope-at-fill"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info text-center">
+                            <h4>Mrs Sadeepa Kuruppu</h4>
+                            <span>Supervisor – SLIIT</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
+                        <div class="member-img">
+                            <img src="assets/img/team/team-2.png" class="img-fluid" alt="Co-Supervisor">
+                            <div class="social">
+                                <a href="mailto:cosupervisor@sliit.lk"><i class="bi bi-envelope-at-fill"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info text-center">
+                            <h4>Ms Tharushi Rubasinghe</h4>
+                            <span>Co-Supervisor – SLIIT</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
+                        <div class="member-img">
+                            <img src="assets/img/team/team-3.png" class="img-fluid" alt="Group Leader">
+                            <div class="social">
+                                <a href="mailto:it21234567@my.sliit.lk"><i class="bi bi-envelope-at-fill"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info text-center">
+                            <h4>Amantha S.A.S. – IT22133618</h4>
+                            <span>Group Leader – SSL-to-Text Recognition</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
+                        <div class="member-img">
+                            <img src="assets/img/team/team-4.jpeg" class="img-fluid" alt="Member 2">
+                            <div class="social">
+                                <a href="mailto:it21234568@my.sliit.lk"><i class="bi bi-envelope-at-fill"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info text-center">
+                            <h4>Vitharana K.V.C.D – IT22091352</h4>
+                            <span>Group Member – Text-to-SSL Avatar</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
+                        <div class="member-img">
+                            <img src="assets/img/team/team-5.jpeg" class="img-fluid" alt="Member 3">
+                            <div class="social">
+                                <a href="mailto:it21234569@my.sliit.lk"><i class="bi bi-envelope-at-fill"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info text-center">
+                            <h4>Witharana D.H. – IT22135384</h4>
+                            <span>Group Member – Gamified Learning</span>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="600">
+                        <div class="member-img">
+                            <img src="assets/img/team/team-6.jpeg" class="img-fluid" alt="Member 4">
+                            <div class="social">
+                                <a href="mailto:it21234570@my.sliit.lk"><i class="bi bi-envelope-at-fill"></i></a>
+                                <a href="#"><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="member-info text-center">
+                            <h4>Withanage E.D – IT22239952</h4>
+                            <span>Group Member – Lip Reading Assistant</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End Team Section -->
+
+        <!-- Call-to-action Section -->
+        <section id="call-to-action" class="call-to-action">
+
+            <img src="assets/img/cta-bg.jpg" alt="">
+
+            <div class="container">
+                <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="col-xl-10">
+                        <div class="text-center">
+                            <h3><strong>Sign<span style="color: #ff570d;">Bridge</span></strong></h3>
+                            <p>Empowering 8,500 deaf and mute children in Sri Lanka through AI-powered Sinhala Sign Language recognition, 3D avatar animation, gamified vocabulary learning, and real-time lip-reading pronunciation assistance. Building a more inclusive future through technology.</p>
+                            <a class="cta-btn" href="#hero">Back to Top</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- End Call-to-action Section -->
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+
+            <div class="container section-title" data-aos="fade-up">
+                <h2>Contact Us</h2>
+            </div>
+
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+                <div class="row gy-4">
+
+                    <div class="col-lg-6">
+
+                        <div class="row gy-4">
+                            <div class="col-md-6">
+                                <div class="info-item" data-aos="fade" data-aos-delay="200">
+                                    <i class="bi bi-geo-alt"></i>
+                                    <h3>Address</h3>
+                                    <p>SLIIT Malabe Campus</p>
+                                    <p>New Kandy Rd, Malabe,</p>
+                                    <p>Sri Lanka</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="info-item" data-aos="fade" data-aos-delay="400" style="height: 100%;">
+                                    <i class="bi bi-envelope"></i>
+                                    <h3>Email Us</h3>
+                                    <p>signbridge.sliit@gmail.com</p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-6">
+                        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+                            <div class="row gy-4">
+
+                                <div class="col-md-6">
+                                    <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                                </div>
+
+                                <div class="col-md-6 ">
+                                    <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+                                </div>
+
+                                <div class="col-md-12 text-center">
+                                    <div class="loading">Loading</div>
+                                    <div class="error-message"></div>
+                                    <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                                    <button type="submit">Send Message</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- End Contact Section -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer id="footer" class="footer">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-5 col-md-12 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <span>Sign<span style="color: #ff570d;">Bridge</span></span>
+                    </a>
+                    <p>An AI-powered Sinhala Sign Language assistive technology platform developed at SLIIT to support communication and language acquisition for deaf and mute children in Sri Lanka through real-time gesture recognition, 3D avatar animation, adaptive gamified learning, and lip-reading pronunciation assistance.</p>
+                    <div class="social-links d-flex mt-4">
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                </div>
+
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4>Useful Links</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#literatur-survey">Project Scope</a></li>
+                        <li><a href="#team">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#downloads">Downloads</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4>Contact Us</h4>
+                    <p>SLIIT Malabe Campus</p>
+                    <p>New Kandy Rd, Malabe,</p>
+                    <p>Sri Lanka</p>
+                    <p><strong>Email:</strong> <span>signbridge.sliit@gmail.com</span></p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container copyright text-center mt-4">
+            <p>&copy; <span>Copyright</span> <strong class="px-1">Sign<span style="color: #ff570d;">Bridge</span></strong> <span>All Rights Reserved</span></p>
+            <div class="credits">
+                Designed by <a href="index.html">Team Sign<span style="color: #ff570d;">Bridge</span></a> | SLIIT Faculty of Computing
+            </div>
+        </div>
+
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Scroll Top Button -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

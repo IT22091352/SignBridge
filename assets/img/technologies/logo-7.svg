@@ -1,0 +1,7 @@
+<svg width="280" height="140" viewBox="0 0 280 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="140" rx="20" fill="#ffffff"/>
+  <path d="M40 86L62 48L84 86" stroke="#9b59b6" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="62" cy="92" r="10" fill="#9b59b6"/>
+  <text x="106" y="66" fill="#8448a0" font-family="Montserrat, Arial, sans-serif" font-size="26" font-weight="700">Word2Vec</text>
+  <text x="106" y="92" fill="#6c757d" font-family="Open Sans, Arial, sans-serif" font-size="13">Word Embeddings</text>
+</svg>

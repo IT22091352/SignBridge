@@ -1,0 +1,7 @@
+<svg width="280" height="140" viewBox="0 0 280 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="140" rx="20" fill="#ffffff"/>
+  <path d="M52 32C36 32 24 44 24 60V80C24 96 36 108 52 108C68 108 80 96 80 80V60C80 44 68 32 52 32Z" fill="#4db33d"/>
+  <path d="M52 40C40 40 32 48 32 60V80C32 92 40 100 52 100C64 100 72 92 72 80V60C72 48 64 40 52 40Z" fill="#ffffff"/>
+  <text x="96" y="66" fill="#2f7d2a" font-family="Montserrat, Arial, sans-serif" font-size="29" font-weight="700">MongoDB</text>
+  <text x="96" y="92" fill="#6c757d" font-family="Open Sans, Arial, sans-serif" font-size="13">NoSQL Database</text>
+</svg>

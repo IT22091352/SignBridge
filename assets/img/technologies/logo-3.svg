@@ -1,0 +1,7 @@
+<svg width="280" height="140" viewBox="0 0 280 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="140" rx="20" fill="#ffffff"/>
+  <circle cx="60" cy="70" r="22" fill="#4a90d9"/>
+  <circle cx="80" cy="70" r="22" fill="#f5a623"/>
+  <text x="114" y="66" fill="#2b5f9e" font-family="Montserrat, Arial, sans-serif" font-size="21" font-weight="700">Scikit-Learn</text>
+  <text x="114" y="92" fill="#6c757d" font-family="Open Sans, Arial, sans-serif" font-size="13">ML Pipeline</text>
+</svg>

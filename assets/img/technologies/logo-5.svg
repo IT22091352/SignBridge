@@ -1,0 +1,8 @@
+<svg width="280" height="140" viewBox="0 0 280 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="140" rx="20" fill="#ffffff"/>
+  <circle cx="64" cy="50" r="14" fill="#5c8aff"/>
+  <circle cx="44" cy="86" r="14" fill="#00d084"/>
+  <circle cx="84" cy="86" r="14" fill="#ff4f5e"/>
+  <text x="118" y="66" fill="#2d4ea8" font-family="Montserrat, Arial, sans-serif" font-size="26" font-weight="700">OpenCV</text>
+  <text x="118" y="92" fill="#6c757d" font-family="Open Sans, Arial, sans-serif" font-size="13">Computer Vision</text>
+</svg>

@@ -1,0 +1,7 @@
+<svg width="280" height="140" viewBox="0 0 280 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="140" rx="20" fill="#ffffff"/>
+  <path d="M44 90C44 64 58 50 80 50C102 50 116 64 116 90" fill="none" stroke="#34a853" stroke-width="10"/>
+  <circle cx="80" cy="52" r="12" fill="#34a853"/>
+  <text x="130" y="66" fill="#2f8d47" font-family="Montserrat, Arial, sans-serif" font-size="23" font-weight="700">MediaPipe</text>
+  <text x="130" y="92" fill="#6c757d" font-family="Open Sans, Arial, sans-serif" font-size="13">Landmark Tracking</text>
+</svg>

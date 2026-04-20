@@ -1,0 +1,7 @@
+<svg width="280" height="140" viewBox="0 0 280 140" xmlns="http://www.w3.org/2000/svg">
+  <rect width="280" height="140" rx="20" fill="#ffffff"/>
+  <rect x="36" y="40" width="58" height="58" rx="12" fill="#ff570d"/>
+  <text x="65" y="77" fill="#ffffff" font-family="Montserrat, Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="700">සි</text>
+  <text x="110" y="66" fill="#ff570d" font-family="Montserrat, Arial, sans-serif" font-size="31" font-weight="700">Sinling</text>
+  <text x="110" y="92" fill="#6c757d" font-family="Open Sans, Arial, sans-serif" font-size="13">Sinhala NLP</text>
+</svg>

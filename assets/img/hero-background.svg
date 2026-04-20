@@ -1,0 +1,261 @@
+<svg viewBox="0 0 1440 780" xmlns="http://www.w3.org/2000/svg" width="1440" height="780">
+  <defs>
+    <!-- Main deep navy gradient background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1b2e"/>
+      <stop offset="45%" style="stop-color:#122340"/>
+      <stop offset="100%" style="stop-color:#0a1520"/>
+    </linearGradient>
+
+    <!-- Orange accent gradient -->
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff570d"/>
+      <stop offset="100%" style="stop-color:#ff8c42"/>
+    </linearGradient>
+
+    <!-- Soft blue highlight -->
+    <linearGradient id="blueAccent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2a5fa5"/>
+      <stop offset="100%" style="stop-color:#1a3d70"/>
+    </linearGradient>
+
+    <!-- Radial glow - orange -->
+    <radialGradient id="glowOrange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff570d;stop-opacity:0.35"/>
+      <stop offset="100%" style="stop-color:#ff570d;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Radial glow - blue center -->
+    <radialGradient id="glowBlue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#3a7bd5;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:#3a7bd5;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Radial glow - subtle center -->
+    <radialGradient id="glowCenter" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1e4a8a;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:#0d1b2e;stop-opacity:0"/>
+    </radialGradient>
+
+    <!-- Node glow -->
+    <filter id="nodeGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Soft glow filter -->
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Strong glow for hand -->
+    <filter id="handGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <!-- Clip path for containing elements -->
+    <clipPath id="svgClip">
+      <rect width="1440" height="780"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#svgClip)">
+
+    <!-- ── Base Background ── -->
+    <rect width="1440" height="780" fill="url(#bgGrad)"/>
+
+    <!-- ── Atmospheric Center Glow ── -->
+    <ellipse cx="820" cy="390" rx="520" ry="380" fill="url(#glowCenter)" opacity="0.8"/>
+    <ellipse cx="1100" cy="200" rx="300" ry="260" fill="url(#glowOrange)" opacity="0.5"/>
+    <ellipse cx="200" cy="600" rx="260" ry="200" fill="url(#glowBlue)" opacity="0.5"/>
+
+    <!-- ── Subtle grid lines (perspective grid) ── -->
+    <!-- Horizontal lines fading from left -->
+    <line x1="0" y1="130" x2="1440" y2="130" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+    <line x1="0" y1="260" x2="1440" y2="260" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+    <line x1="0" y1="390" x2="1440" y2="390" stroke="#1e3a5f" stroke-width="0.5" opacity="0.3"/>
+    <line x1="0" y1="520" x2="1440" y2="520" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+    <line x1="0" y1="650" x2="1440" y2="650" stroke="#1e3a5f" stroke-width="0.5" opacity="0.4"/>
+    <!-- Vertical lines -->
+    <line x1="240" y1="0" x2="240" y2="780" stroke="#1e3a5f" stroke-width="0.5" opacity="0.3"/>
+    <line x1="480" y1="0" x2="480" y2="780" stroke="#1e3a5f" stroke-width="0.5" opacity="0.3"/>
+    <line x1="720" y1="0" x2="720" y2="780" stroke="#1e3a5f" stroke-width="0.5" opacity="0.25"/>
+    <line x1="960" y1="0" x2="960" y2="780" stroke="#1e3a5f" stroke-width="0.5" opacity="0.3"/>
+    <line x1="1200" y1="0" x2="1200" y2="780" stroke="#1e3a5f" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- ── Neural / Connectivity Network ── -->
+    <!-- Background connection lines -->
+    <line x1="720" y1="390" x2="980" y2="180" stroke="#2a5fa5" stroke-width="1" opacity="0.5"/>
+    <line x1="720" y1="390" x2="1140" y2="320" stroke="#2a5fa5" stroke-width="1" opacity="0.4"/>
+    <line x1="720" y1="390" x2="1050" y2="530" stroke="#2a5fa5" stroke-width="1" opacity="0.4"/>
+    <line x1="720" y1="390" x2="880" y2="580" stroke="#2a5fa5" stroke-width="1" opacity="0.5"/>
+    <line x1="720" y1="390" x2="560" y2="200" stroke="#2a5fa5" stroke-width="1" opacity="0.4"/>
+    <line x1="720" y1="390" x2="400" y2="280" stroke="#2a5fa5" stroke-width="1" opacity="0.4"/>
+    <line x1="720" y1="390" x2="460" y2="530" stroke="#2a5fa5" stroke-width="1" opacity="0.4"/>
+    <line x1="720" y1="390" x2="600" y2="620" stroke="#2a5fa5" stroke-width="1" opacity="0.3"/>
+
+    <!-- Secondary connections -->
+    <line x1="980" y1="180" x2="1140" y2="320" stroke="#2a5fa5" stroke-width="0.8" opacity="0.35"/>
+    <line x1="1140" y1="320" x2="1050" y2="530" stroke="#2a5fa5" stroke-width="0.8" opacity="0.3"/>
+    <line x1="1050" y1="530" x2="880" y2="580" stroke="#2a5fa5" stroke-width="0.8" opacity="0.35"/>
+    <line x1="880" y1="580" x2="600" y2="620" stroke="#2a5fa5" stroke-width="0.8" opacity="0.3"/>
+    <line x1="560" y1="200" x2="400" y2="280" stroke="#2a5fa5" stroke-width="0.8" opacity="0.35"/>
+    <line x1="400" y1="280" x2="460" y2="530" stroke="#2a5fa5" stroke-width="0.8" opacity="0.3"/>
+    <line x1="460" y1="530" x2="600" y2="620" stroke="#2a5fa5" stroke-width="0.8" opacity="0.3"/>
+    <line x1="560" y1="200" x2="980" y2="180" stroke="#2a5fa5" stroke-width="0.6" opacity="0.25"/>
+
+    <!-- Outer scatter connections -->
+    <line x1="1300" y1="120" x2="980" y2="180" stroke="#1e4a8a" stroke-width="0.8" opacity="0.5"/>
+    <line x1="1300" y1="120" x2="1140" y2="320" stroke="#1e4a8a" stroke-width="0.6" opacity="0.4"/>
+    <line x1="1380" y1="450" x2="1140" y2="320" stroke="#1e4a8a" stroke-width="0.8" opacity="0.5"/>
+    <line x1="1380" y1="450" x2="1050" y2="530" stroke="#1e4a8a" stroke-width="0.6" opacity="0.4"/>
+    <line x1="1250" y1="670" x2="1050" y2="530" stroke="#1e4a8a" stroke-width="0.8" opacity="0.5"/>
+    <line x1="1250" y1="670" x2="880" y2="580" stroke="#1e4a8a" stroke-width="0.6" opacity="0.4"/>
+    <line x1="100" y1="100" x2="400" y2="280" stroke="#1e4a8a" stroke-width="0.8" opacity="0.5"/>
+    <line x1="100" y1="100" x2="560" y2="200" stroke="#1e4a8a" stroke-width="0.6" opacity="0.4"/>
+    <line x1="60" y1="500" x2="400" y2="280" stroke="#1e4a8a" stroke-width="0.8" opacity="0.5"/>
+    <line x1="60" y1="500" x2="460" y2="530" stroke="#1e4a8a" stroke-width="0.6" opacity="0.4"/>
+    <line x1="160" y1="720" x2="460" y2="530" stroke="#1e4a8a" stroke-width="0.8" opacity="0.5"/>
+    <line x1="160" y1="720" x2="600" y2="620" stroke="#1e4a8a" stroke-width="0.6" opacity="0.4"/>
+
+    <!-- Orange-highlighted key connections (from center hub) -->
+    <line x1="720" y1="390" x2="980" y2="180" stroke="#ff570d" stroke-width="1.5" opacity="0.3"/>
+    <line x1="720" y1="390" x2="880" y2="580" stroke="#ff570d" stroke-width="1.5" opacity="0.3"/>
+    <line x1="720" y1="390" x2="460" y2="530" stroke="#ff570d" stroke-width="1.2" opacity="0.25"/>
+    <line x1="720" y1="390" x2="560" y2="200" stroke="#ff570d" stroke-width="1.2" opacity="0.25"/>
+
+    <!-- ── Network Nodes ── -->
+    <!-- Outer edge nodes - small -->
+    <circle cx="1300" cy="120" r="4" fill="#1e4a8a" stroke="#3a7bd5" stroke-width="1" opacity="0.8" filter="url(#nodeGlow)"/>
+    <circle cx="1380" cy="450" r="4" fill="#1e4a8a" stroke="#3a7bd5" stroke-width="1" opacity="0.8" filter="url(#nodeGlow)"/>
+    <circle cx="1250" cy="670" r="3.5" fill="#1e4a8a" stroke="#3a7bd5" stroke-width="1" opacity="0.7"/>
+    <circle cx="100" cy="100" r="4" fill="#1e4a8a" stroke="#3a7bd5" stroke-width="1" opacity="0.8" filter="url(#nodeGlow)"/>
+    <circle cx="60" cy="500" r="4" fill="#1e4a8a" stroke="#3a7bd5" stroke-width="1" opacity="0.8" filter="url(#nodeGlow)"/>
+    <circle cx="160" cy="720" r="3.5" fill="#1e4a8a" stroke="#3a7bd5" stroke-width="1" opacity="0.7"/>
+
+    <!-- Mid nodes -->
+    <circle cx="980" cy="180" r="7" fill="#162d52" stroke="#2a5fa5" stroke-width="1.5" opacity="0.9" filter="url(#nodeGlow)"/>
+    <circle cx="1140" cy="320" r="7" fill="#162d52" stroke="#2a5fa5" stroke-width="1.5" opacity="0.9" filter="url(#nodeGlow)"/>
+    <circle cx="1050" cy="530" r="7" fill="#162d52" stroke="#2a5fa5" stroke-width="1.5" opacity="0.9" filter="url(#nodeGlow)"/>
+    <circle cx="880" cy="580" r="8" fill="#162d52" stroke="#2a5fa5" stroke-width="1.5" opacity="0.9" filter="url(#nodeGlow)"/>
+    <circle cx="600" cy="620" r="7" fill="#162d52" stroke="#2a5fa5" stroke-width="1.5" opacity="0.9" filter="url(#nodeGlow)"/>
+    <circle cx="460" cy="530" r="7" fill="#162d52" stroke="#2a5fa5" stroke-width="1.5" opacity="0.9" filter="url(#nodeGlow)"/>
+    <circle cx="400" cy="280" r="7" fill="#162d52" stroke="#2a5fa5" stroke-width="1.5" opacity="0.9" filter="url(#nodeGlow)"/>
+    <circle cx="560" cy="200" r="7" fill="#162d52" stroke="#2a5fa5" stroke-width="1.5" opacity="0.9" filter="url(#nodeGlow)"/>
+
+    <!-- Inner highlighted nodes (orange) -->
+    <circle cx="980" cy="180" r="3" fill="#ff570d" opacity="0.9"/>
+    <circle cx="880" cy="580" r="3.5" fill="#ff570d" opacity="0.9"/>
+    <circle cx="460" cy="530" r="3" fill="#ff570d" opacity="0.7"/>
+    <circle cx="560" cy="200" r="3" fill="#ff570d" opacity="0.7"/>
+
+    <!-- ── Central Hub — Sign/Hand Motif ── -->
+    <!-- Outer ring -->
+    <circle cx="720" cy="390" r="72" fill="none" stroke="#1e4a8a" stroke-width="1" opacity="0.6" stroke-dasharray="4 6"/>
+    <!-- Middle ring -->
+    <circle cx="720" cy="390" r="52" fill="none" stroke="#2a5fa5" stroke-width="1.5" opacity="0.5"/>
+    <!-- Inner filled circle - hub -->
+    <circle cx="720" cy="390" r="36" fill="#0f2240" stroke="#2a5fa5" stroke-width="2" opacity="0.95" filter="url(#softGlow)"/>
+    <circle cx="720" cy="390" r="24" fill="#122a50" stroke="#ff570d" stroke-width="1.5" opacity="0.9"/>
+
+    <!-- Hand gesture icon inside hub (open hand - OK sign echo) -->
+    <!-- Palm base -->
+    <ellipse cx="720" cy="398" rx="11" ry="12" fill="#ff570d" opacity="0.85"/>
+    <!-- Fingers (simplified lines going upward) -->
+    <rect x="710" y="378" width="4" height="14" rx="2" fill="#ff570d" opacity="0.85"/>
+    <rect x="716" y="374" width="4" height="17" rx="2" fill="#ff570d" opacity="0.85"/>
+    <rect x="722" y="375" width="4" height="16" rx="2" fill="#ff570d" opacity="0.85"/>
+    <rect x="728" y="378" width="4" height="13" rx="2" fill="#ff570d" opacity="0.85"/>
+    <!-- Thumb -->
+    <ellipse cx="707" cy="392" rx="3.5" ry="7" fill="#ff570d" opacity="0.85" transform="rotate(-25 707 392)"/>
+
+    <!-- Pulse ring animation hint -->
+    <circle cx="720" cy="390" r="90" fill="none" stroke="#ff570d" stroke-width="0.8" opacity="0.15"/>
+    <circle cx="720" cy="390" r="108" fill="none" stroke="#ff570d" stroke-width="0.5" opacity="0.08"/>
+
+    <!-- ── Floating Sign Language Hand Silhouettes ── -->
+    <!-- Large decorative hand - right side, faded -->
+    <g opacity="0.07" transform="translate(1050, 180) rotate(-15)">
+      <ellipse cx="0" cy="40" rx="38" ry="42" fill="#ff8c42"/>
+      <rect x="-28" y="-28" width="14" height="50" rx="7" fill="#ff8c42"/>
+      <rect x="-12" y="-38" width="14" height="58" rx="7" fill="#ff8c42"/>
+      <rect x="4" y="-36" width="14" height="55" rx="7" fill="#ff8c42"/>
+      <rect x="20" y="-28" width="13" height="48" rx="6" fill="#ff8c42"/>
+      <ellipse cx="-40" cy="10" rx="11" ry="22" fill="#ff8c42" transform="rotate(-30 -40 10)"/>
+    </g>
+
+    <!-- Smaller decorative hand - left side -->
+    <g opacity="0.06" transform="translate(280, 420) rotate(20)">
+      <ellipse cx="0" cy="35" rx="30" ry="34" fill="#3a7bd5"/>
+      <rect x="-22" y="-22" width="11" height="40" rx="5" fill="#3a7bd5"/>
+      <rect x="-9" y="-30" width="11" height="48" rx="5" fill="#3a7bd5"/>
+      <rect x="3" y="-28" width="11" height="46" rx="5" fill="#3a7bd5"/>
+      <rect x="16" y="-22" width="10" height="38" rx="5" fill="#3a7bd5"/>
+      <ellipse cx="-32" cy="8" rx="9" ry="18" fill="#3a7bd5" transform="rotate(-30 -32 8)"/>
+    </g>
+
+    <!-- ── Dotted constellation scatter ── -->
+    <circle cx="310" cy="150" r="1.5" fill="#3a7bd5" opacity="0.6"/>
+    <circle cx="350" cy="180" r="1" fill="#3a7bd5" opacity="0.5"/>
+    <circle cx="290" cy="210" r="1.5" fill="#3a7bd5" opacity="0.5"/>
+    <circle cx="1100" cy="420" r="1.5" fill="#3a7bd5" opacity="0.5"/>
+    <circle cx="1160" cy="460" r="1" fill="#3a7bd5" opacity="0.4"/>
+    <circle cx="1090" cy="480" r="1.5" fill="#3a7bd5" opacity="0.5"/>
+    <circle cx="650" cy="680" r="1.5" fill="#3a7bd5" opacity="0.5"/>
+    <circle cx="700" cy="710" r="1" fill="#3a7bd5" opacity="0.4"/>
+    <circle cx="800" cy="120" r="1.5" fill="#ff570d" opacity="0.5"/>
+    <circle cx="840" cy="100" r="1" fill="#ff570d" opacity="0.4"/>
+    <circle cx="780" cy="90" r="2" fill="#ff570d" opacity="0.4"/>
+    <circle cx="500" cy="680" r="1.5" fill="#ff570d" opacity="0.4"/>
+    <circle cx="1320" cy="300" r="1.5" fill="#ff570d" opacity="0.5"/>
+    <circle cx="1350" cy="280" r="1" fill="#ff570d" opacity="0.4"/>
+    <circle cx="180" cy="340" r="1.5" fill="#3a7bd5" opacity="0.4"/>
+    <circle cx="210" cy="360" r="1" fill="#3a7bd5" opacity="0.4"/>
+    <circle cx="1420" cy="600" r="1.5" fill="#3a7bd5" opacity="0.5"/>
+    <circle cx="1400" cy="640" r="1" fill="#3a7bd5" opacity="0.4"/>
+
+    <!-- ── Wave / Signal arcs from center ── -->
+    <path d="M 720 390 Q 900 280 1080 300" fill="none" stroke="#ff570d" stroke-width="1.2" opacity="0.2" stroke-dasharray="6 8"/>
+    <path d="M 720 390 Q 900 500 1080 480" fill="none" stroke="#ff570d" stroke-width="1.2" opacity="0.2" stroke-dasharray="6 8"/>
+    <path d="M 720 390 Q 540 280 360 300" fill="none" stroke="#2a5fa5" stroke-width="1" opacity="0.2" stroke-dasharray="6 8"/>
+    <path d="M 720 390 Q 540 500 360 480" fill="none" stroke="#2a5fa5" stroke-width="1" opacity="0.2" stroke-dasharray="6 8"/>
+
+    <!-- ── Decorative arc / halo ── -->
+    <path d="M 490 165 A 310 280 0 0 1 950 165" fill="none" stroke="#1e4a8a" stroke-width="1" opacity="0.35" stroke-dasharray="3 5"/>
+    <path d="M 470 620 A 310 280 0 0 0 970 620" fill="none" stroke="#1e4a8a" stroke-width="1" opacity="0.35" stroke-dasharray="3 5"/>
+
+    <!-- ── Orange accent geometric – right top ── -->
+    <polygon points="1180,60 1220,60 1200,30" fill="#ff570d" opacity="0.12"/>
+    <polygon points="1210,80 1260,80 1235,45" fill="#ff570d" opacity="0.08"/>
+    <rect x="1290" y="40" width="60" height="3" rx="1.5" fill="#ff570d" opacity="0.15"/>
+    <rect x="1320" y="55" width="40" height="2" rx="1" fill="#ff570d" opacity="0.10"/>
+
+    <!-- ── Blue accent geometric – left bottom ── -->
+    <polygon points="140,680 180,680 160,710" fill="#2a5fa5" opacity="0.12"/>
+    <polygon points="110,660 160,660 135,695" fill="#2a5fa5" opacity="0.08"/>
+    <rect x="50" y="700" width="70" height="3" rx="1.5" fill="#2a5fa5" opacity="0.15"/>
+    <rect x="60" y="715" width="50" height="2" rx="1" fill="#2a5fa5" opacity="0.10"/>
+
+    <!-- ── Text/Label ghost annotations (subtle) ── -->
+    <text x="1020" y="162" font-family="Montserrat,sans-serif" font-size="9" fill="#3a7bd5" opacity="0.45" letter-spacing="2">RECOGNITION</text>
+    <text x="1140" y="548" font-family="Montserrat,sans-serif" font-size="9" fill="#3a7bd5" opacity="0.45" letter-spacing="2">ANIMATION</text>
+    <text x="396" y="265" font-family="Montserrat,sans-serif" font-size="9" fill="#3a7bd5" opacity="0.45" letter-spacing="2">LEARNING</text>
+    <text x="448" y="550" font-family="Montserrat,sans-serif" font-size="9" fill="#3a7bd5" opacity="0.45" letter-spacing="2">LIP-READ</text>
+    <text x="860" y="597" font-family="Montserrat,sans-serif" font-size="9" fill="#ff570d" opacity="0.4" letter-spacing="2">AI BRIDGE</text>
+
+    <!-- ── Bottom gradient fade ── -->
+    <defs>
+      <linearGradient id="bottomFade" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" style="stop-color:#0d1b2e;stop-opacity:0"/>
+        <stop offset="100%" style="stop-color:#0d1b2e;stop-opacity:0.85"/>
+      </linearGradient>
+    </defs>
+    <rect x="0" y="540" width="1440" height="240" fill="url(#bottomFade)"/>
+
+    <!-- ── Top edge subtle line ── -->
+    <rect x="0" y="0" width="1440" height="2" fill="url(#orangeGrad)" opacity="0.3"/>
+
+  </g>
+</svg>

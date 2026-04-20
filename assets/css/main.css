@@ -183,9 +183,13 @@ section {
     z-index: 997;
 }
 
+.header .logo {
+    margin-left: 15px;
+}
+
 .header .logo img {
-    max-height: 62px;
-    margin-right: 6px;
+    max-height: 30px;
+    margin-right: 30px;
 }
 
 .header .logo h1 {
@@ -782,7 +786,7 @@ section {
     --default-color-rgb: 255, 255, 255;
     --background-color: #000000;
     --background-color-rgb: 0, 0, 0;
-    background-image: url("../img/hero-colorful.svg");
+    background-image: url("../img/hero-background.svg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

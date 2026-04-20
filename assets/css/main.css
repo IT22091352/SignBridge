@@ -3133,6 +3133,128 @@ section {
     border-color: #ff570d;
 }
 
+/* ---------------------------------------
+   Mobile responsiveness improvements
+---------------------------------------- */
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+@media (max-width: 991px) {
+    .header .logo {
+        margin-left: 0;
+    }
+
+    .header .logo img {
+        margin-right: 16px;
+    }
+
+    .about .icon-box {
+        padding: 32px 24px;
+    }
+
+    .recent-posts article {
+        padding: 24px;
+    }
+
+    .recent-posts .post-img {
+        margin: -24px -24px 15px -24px;
+    }
+
+    #downloads .down-btn {
+        width: 100% !important;
+    }
+
+    #methodology div[style*="margin-top: 100px"] {
+        margin-top: 48px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    section {
+        padding: 56px 0;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+        line-height: 1.25;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .main-timeline-4::after {
+        left: 31px;
+    }
+
+    .timeline-4 {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 20px;
+    }
+
+    .timeline-4::before {
+        left: 60px;
+        border: medium solid #ff570d;
+        border-width: 10px 10px 10px 0;
+        border-color: transparent #ff570d transparent transparent;
+    }
+
+    .left-4::after,
+    .right-4::after {
+        left: 18px;
+    }
+
+    .left-4::before {
+        right: auto;
+    }
+
+    .right-4 {
+        left: 0;
+    }
+
+    .team .member-info h4 {
+        font-size: 18px;
+        line-height: 1.35;
+        word-break: break-word;
+    }
+
+    .team .member-info span {
+        display: block;
+        line-height: 1.5;
+    }
+
+    #tools-technologies .single-client img {
+        max-width: 170px;
+    }
+}
+
+@media (max-width: 575px) {
+    .header .btn-getstarted {
+        display: none;
+    }
+
+    .about .icon-box {
+        padding: 24px 18px;
+    }
+
+    .recent-posts article {
+        padding: 20px;
+    }
+
+    .recent-posts .post-img {
+        margin: -20px -20px 12px -20px;
+    }
+
+    #tools-technologies .single-client img {
+        max-width: 140px;
+    }
+}
+
 .gradient-custom-4 {
     /* fallback for old browsers */
     border-color: #ff570d;

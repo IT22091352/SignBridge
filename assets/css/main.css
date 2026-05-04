@@ -1916,7 +1916,7 @@ section {
 
 .contact .info-item {
     background: rgba(var(--default-color-rgb), 0.03);
-    padding: 30px;
+    padding: 45px 40px;
 }
 
 .contact .info-item i {
@@ -1928,19 +1928,19 @@ section {
 .contact .info-item h3 {
     font-size: 20px;
     font-weight: 700;
-    margin: 20px 0 10px 0;
+    margin: 25px 0 15px 0;
 }
 
 .contact .info-item p {
     padding: 0;
-    line-height: 24px;
+    line-height: 26px;
     font-size: 14px;
-    margin-bottom: 0;
+    margin-bottom: 8px;
 }
 
 .contact .php-email-form {
     background: rgba(var(--default-color-rgb), 0.03);
-    padding: 30px;
+    padding: 45px 40px;
     height: 100%;
 }
 
@@ -1988,12 +1988,13 @@ section {
 .contact .php-email-form input[type=email],
 .contact .php-email-form textarea {
     font-size: 14px;
-    padding: 10px 15px;
+    padding: 14px 18px;
     box-shadow: none;
-    border-radius: 0;
+    border-radius: 4px;
     color: var(--default-color);
     background-color: rgba(var(--background-color-rgb), 0.5);
     border-color: rgba(var(--default-color-rgb), 0.2);
+    margin-bottom: 8px;
 }
 
 .contact .php-email-form input[type=text]:focus,
@@ -2018,9 +2019,11 @@ section {
     background: var(--primary-color);
     color: var(--contrast-color);
     border: 0;
-    padding: 10px 30px;
+    padding: 12px 36px;
     transition: 0.4s;
     border-radius: 4px;
+    margin-top: 16px;
+    font-weight: 600;
 }
 
 .contact .php-email-form button[type=submit]:hover {
